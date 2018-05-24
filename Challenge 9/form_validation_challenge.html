@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Validation</title>
+
+               <link rel="stylesheet" href="styleclass.css">
+
+  </head>
+        <body>
+
+ <h1 style="color: DarkCyan;">Registration Form</h1>
+
+        <form >
+
+           <p><label for="[object Object]">&nbsp User I.D: &nbsp</label>
+                <input class="a2" type="text" name="userid" placeholder="Must be a length of 5-12" required></p>
+
+           <p><label for="[object Object]">Password: &nbsp</label>
+                <input class="align1" type="password" name="psw" placeholder="Must be a length of 7-12" required></p>
+
+           <p><label class="a3" for="[object Object]">Name: &nbsp</label>
+                <input class="align1" type="text" name="name" placeholder="Alphabet Only" required></p>
+
+
+           <p><label class="a5" for="[object Object]">Country:</label>
+                      <select class="a4" required>
+
+                            <option value="" selected="selected" disabled="disabled">(Please select a country)</option>
+                            <option value="South Africa">South Africa</option>
+                            <option value="Japan">Japan</option>
+                            <option value="Germany">Germany</option>
+                            <option value="America">America</option>
+                            <option value="Thailand">Thailand</option>
+                            <option value="Italy">Italy</option>
+
+                      </select></p>
+
+           <p><label for="[object Object]">ZIP Code: &nbsp</label>
+                <input class="a6" type="code" name="zipcode" placeholder="numeric only" required></p>
+
+           <p><label class="a7" for="[object Object]"> &nbsp E-mail: &nbsp</label>
+                <input class="a8" type="text" name="e-mail" placeholder="E-mail" required></p>
+
+           <p><label for="[object Object]">Sex:&nbsp</label>
+                <input class="a2"type="radio" name="gender" value="male" required> Male</input>
+                <input type="radio" name="gender" value="female"> Female</input></p>
+
+           <p><label class="a10"for="[object Object]">Language:</label>
+                <input class="a9"type="checkbox" name="language" value="English" required>English</input>
+                <input type="checkbox" name="language" value="Afrikaans">Afrikaans</input></p>
+
+           <p><label class="a11" for="[object Object]">About:</label>
+                    <textarea class="a5"name="name" rows="5" cols="20"></textarea></p>
+
+              <button type="submit" formaction="http://wallpaper-gallery.net/images/wallpaper-superhero/wallpaper-superhero-17.jpg">Submit</button>
+
+        </form>
+
+
+      </body>
+</html>
